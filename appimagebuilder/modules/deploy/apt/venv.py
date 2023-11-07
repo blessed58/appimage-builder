@@ -83,7 +83,7 @@ class Venv:
             "Dir::Etc::TrustedParts": self._apt_key_parts_path,
             "Dir::State::status": self._dpkg_status_path,
             "Dir::Ignore-Files-Silently": False,
-            "Dir::Bin::Methods::ftp": ftp,
+            "Dir::Bin::Methods::ftp": True,
             "APT::Install-Recommends": False,
             "APT::Install-Suggests": False,
             "APT::Immediate-Configure": False,
