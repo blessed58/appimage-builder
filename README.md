@@ -60,4 +60,4 @@ Add the current directory to the list of python modules :
 export PYTHONPATH="`pwd`"
 ```
 
-At this point you should be able to run appimage-builder by running `python appimagebuilder` !
+At this point you should be able to run appimage-builder by running `python appimagebuilder` !!
